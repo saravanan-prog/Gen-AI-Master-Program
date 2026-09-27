@@ -1,7 +1,5 @@
 # Master Program in Generative AI — Complete Syllabus
 
----
-
 ## Module 1: Introduction of GenAI
 * **Overview of Generative AI**
 * **Evolution of AI:** From rule-based to generative models
