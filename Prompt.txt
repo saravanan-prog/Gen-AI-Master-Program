@@ -1,0 +1,15 @@
+I am software Traier
+I also new the Gen Ai techonlogies
+
+My student also fresher
+
+could you please teach me below concepts:
+ * **Introduction to MCP:**
+  * What is Model Context Protocol (MCP)?
+  * Importance of standardizing LLM-to-tool connections
+  * How MCP integrates models with tools, databases, and APIs
+
+
+with Practical how i do step by step
+please use simple engish word and
+and Simple method to approach
