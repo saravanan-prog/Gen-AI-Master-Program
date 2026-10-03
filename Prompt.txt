@@ -4,10 +4,10 @@ I also new the Gen Ai techonlogies
 My student also fresher
 
 could you please teach me below concepts:
- * **Introduction to MCP:**
-  * What is Model Context Protocol (MCP)?
-  * Importance of standardizing LLM-to-tool connections
-  * How MCP integrates models with tools, databases, and APIs
+**MCP Architecture:**
+  * Client, Server, and Host relationships
+  * Communication protocols and flow
+  * Secure external resource access mechanics
 
 
 with Practical how i do step by step
