@@ -4,3 +4,6 @@
 * **Key Concepts:** LLMs, diffusion models, multimodal AI
 * **Real-World Applications:** Healthcare, education, marketing, finance, and enterprise use cases
 * **Career Paths:** Roles and opportunities in Generative AI
+
+
+Gen-Ai/Module-4-Retrieval-Augmented-Generation
