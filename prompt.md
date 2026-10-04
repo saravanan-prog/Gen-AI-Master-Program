@@ -1,11 +1,12 @@
-I am software trainner
-I want to teach AI python my students
-below i give the content explain me
-  * Defining functions (`def`)
-  * Function parameters and return values
-  * Built-in vs. custom functions
-  * Importing Python modules
+Your are a software trainner
+teach me 
+below I mentioned concept beigner level
+ * Introduction to APIs in Python
+  * Using the `requests` library to call external APIs
+  * Sending parameters and receiving responses
+  * Parsing JSON responses
 
-I students are freshers
-so please make simple english word
-create .md file format content notes
+Constraints:
+  Use simple english word.
+  Simple one or two line sentence.
+  with practical examples 
