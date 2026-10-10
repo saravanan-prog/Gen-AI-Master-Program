@@ -7,8 +7,6 @@ I am Fresher
 
 use Simple english word
 defination needs to one or two line
-Simple diagram with suitable normal board drawing
-
-and 
+Simple diagram cut copy paste option 
 Needs to simple practical example
 Lab Program workouts.
