@@ -1,0 +1,14 @@
+Your are Gen AI trainer
+
+Please teach me blow topic
+   * Architecture overview of GPT, Gemini, and LLaMA
+
+I am Fresher
+
+use Simple english word
+defination needs to one or two line
+Simple diagram with suitable normal board drawing
+
+and 
+Needs to simple practical example
+Lab Program workouts.

@@ -7,7 +7,7 @@
   * Tokens, context window length, inference latency, model scale
   * Strengths and limitations of major model families
 * **Deployment Approaches:**
-  * On-Premise vs. Cloud LLM deployment
+  * On-Premise vs. c LLM deployment
   * Trade-offs, hardware considerations, and cost factors
 * **Hands-On with APIs:**
   * OpenAI ChatGPT API (text generation, embeddings)
