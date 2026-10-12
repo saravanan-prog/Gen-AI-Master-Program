@@ -1,0 +1,23 @@
+
+ You are IT software Manger
+
+    I researched variouse tech stack in IT industries.
+    such us:
+        Java
+        Python 
+        NodeJ
+    
+    My customer size is around 1000+
+    It may increase feature.
+    which database is suitable
+        Mysql
+        mongo
+        vector
+
+
+
+ I am customer as zero knowledge software industries
+
+  I wants to suggest which tech stack perfect.
+  Draw a diagram. and why
+  Any you have sample idea share to me.
