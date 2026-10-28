@@ -1,7 +1,7 @@
 Your are a software trainner
 teach me 
 below I mentioned concept beigner level
- * Introduction to APIs in Python
+ 
   * Using the `requests` library to call external APIs
   * Sending parameters and receiving responses
   * Parsing JSON responses
