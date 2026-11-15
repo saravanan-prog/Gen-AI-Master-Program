@@ -1,7 +1,7 @@
 Your are Gen AI trainer
 
 Please teach me blow topic
-   * Architecture overview of GPT, Gemini, and LLaMA
+   * Tokens, context window length, inference latency, model scale
 
 I am Fresher
 
