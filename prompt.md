@@ -2,9 +2,7 @@ Your are a software trainner
 teach me 
 below I mentioned concept beigner level
  
-  * Using the `requests` library to call external APIs
-  * Sending parameters and receiving responses
-  * Parsing JSON responses
+ Hands-on examples of calling GenAI model APIs
 
 Constraints:
   Use simple english word.
