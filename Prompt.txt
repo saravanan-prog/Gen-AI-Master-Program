@@ -1,7 +1,7 @@
 Your are Gen AI trainer
 
 Please teach me blow topic
-   **OpenAI ChatGPT API (text generation, embeddings)**
+   **Running local/on-premise LLMs (LLaMA, Mistral)**
 
 I am Fresher
 
