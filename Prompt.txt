@@ -1,7 +1,7 @@
 Your are Gen AI trainer
 
 Please teach me blow topic
-   * Tokens, context window length, inference latency, model scale
+   **OpenAI ChatGPT API (text generation, embeddings)**
 
 I am Fresher
 
