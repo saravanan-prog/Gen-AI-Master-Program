@@ -1,143 +1,124 @@
+## Mini Project: GenAI Prompt Reader & Response Writer
 
-3. Create the project folder
+- Read a prompt from a text file, 
+- send it to an AI API, receive the response, and save the response into another text file.
 
 ```
-genai_file_project/
+GenAI-Mini-Project/
 │
-├── input/
-│   └── prompt.txt
-│
-├── output/
-│   └── response.txt
-│
+├── prompt.txt
 ├── main.py
-│
-└── requirements.txt
+└── output.txt
 ```
-### Install Ollama and download model
+
+## Step 1 – Write the prompt - ***prompt.txt***
+```
+    Explain what is Python.
+
+    I am a beginner.
+    Use simple English.
+    Give me one real-world example.
+```
+
+###  Step 2 – Read the prompt using Python - ***main.py***
+```
+# Open the file
+file = open("prompt.txt", "r")
+
+# Read the content
+prompt = file.read()
+
+# Close the file
+file.close()
+
+# Print the prompt
+print(prompt)
+```
+
+### Step 3 – Connect to GenAI API
 
 ```
-ollama pull llama3.2
+    pip install requests
 ```
-Start the model:
 
+### Step 4 Send prompt to Ollama
 ```
-ollama run llama3.2
-```
-### Step 2: Install Python dependencies
-```
-requests
-pip install -r requirements.txt
+import requests
 
+url = "http://localhost:11434/api/generate"
+
+data = {
+    "model": "llama3.2",
+    "prompt": prompt,
+    "stream": False
+}
+
+response = requests.post(url, json=data )
+
+result = response.json()
+
+print(result["response"])
 ```
-### Step 3: Create the input prompt
-Open input/prompt.txt.
+
+### Save AI response to output.txt
 ```
-You are a customer support assistant.
+# Save AI response
 
-Analyze the following customer complaint.
+file = open("output.txt", "w")
 
-Customer complaint:
-I purchased a laptop five days ago.
-The laptop is not switching on.
+file.write(result)
 
-Please provide:
-1. Complaint summary
-2. Possible reason
-3. Suggested solution
-4. Customer support response
+file.close()
 
-Use simple English.
+print("Response saved successfully!")
 ```
-### Step 4: Write the Python application
-Open ***main.py***
+### 8. Complete main.py program
 ```
 
 import requests
-from pathlib import Path
 
-# File locations
-INPUT_FILE = Path("input/prompt.txt")
-OUTPUT_FILE = Path("output/response.txt")
+# Step 1: Read prompt from file
 
-# Ollama API details
-API_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3.2"
+file = open("prompt.txt", "r")
+prompt = file.read()
+file.close()
 
-
-def read_prompt():
-
-    print("Reading prompt from file...")
-
-    if not INPUT_FILE.exists():
-        raise FileNotFoundError("Prompt file not found!")
-
-    prompt = INPUT_FILE.read_text(encoding="utf-8")
-
-    if not prompt.strip():
-        raise ValueError("Prompt file is empty!")
-
-    return prompt
+print("Input Prompt:")
+print(prompt)
 
 
-def call_genai_api(prompt):
+# Step 2: Ollama API URL
 
-    print("Sending prompt to Ollama...")
-
-    data = {
-        "model": MODEL_NAME,
-        "prompt": prompt,
-        "stream": False
-    }
-
-    response = requests.post(
-        API_URL,
-        json=data,
-        timeout=180
-    )
-
-    response.raise_for_status()
-
-    result = response.json()
-
-    return result["response"]
+url = "http://localhost:11434/api/generate"
 
 
-def save_response(ai_response):
+# Step 3: Prepare request data
 
-    print("Saving AI response...")
-
-    OUTPUT_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    OUTPUT_FILE.write_text(
-        ai_response,
-        encoding="utf-8"
-    )
+data = {
+    "model": "llama3.2",
+    "prompt": prompt,
+    "stream": False
+}
 
 
-def main():
+# Step 4: Send request to Ollama
 
-    try:
-        prompt = read_prompt()
+response = requests.post(url, json=data)
 
-        ai_response = call_genai_api(prompt)
+# Step 5: Get AI response
 
-        save_response(ai_response)
+result = response.json()["response"]
 
-        print("Project completed successfully!")
-        print("Check output/response.txt")
-
-    except requests.exceptions.RequestException as error:
-        print("API connection error:", error)
-
-    except Exception as error:
-        print("Application error:", error)
+print("\nAI Generated Response:")
+print(result)
 
 
-if __name__ == "__main__":
-    main()
+# Step 6: Save response to file
+
+file = open("output.txt", "w")
+file.write(result)
+file.close()
+
+print("\nResponse saved successfully!")
 
 ```
