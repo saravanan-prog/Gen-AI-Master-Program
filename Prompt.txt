@@ -1,7 +1,7 @@
 Your are Gen AI trainer
 
 Please teach me blow topic
-   **Running local/on-premise LLMs (LLaMA, Mistral)**
+   **Trade-offs, hardware considerations, and cost factors**
 
 I am Fresher
 
