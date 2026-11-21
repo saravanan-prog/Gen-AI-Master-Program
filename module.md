@@ -1,6 +1,13 @@
-## Module 1: Introduction of GenAI
-* **Overview of Generative AI**
-* **Evolution of AI:** From rule-based to generative models
-* **Key Concepts:** LLMs, diffusion models, multimodal AI
-* **Real-World Applications:** Healthcare, education, marketing, finance, and enterprise use cases
-* **Career Paths:** Roles and opportunities in Generative AI
+## Module 11: Vibe Coding using Emergent
+* **Emergent Platform Mastery:**
+  * Platform environment setup and navigation
+  * Core engine mechanics and developer intent interpretation
+* **Rapid Prototype Development:**
+  * Generating complete application scaffolds from single prompts
+  * Iterative UI/UX customization through conversational feedback
+* **Multi-Agent Orchestration:**
+  * Coordinating specialized agents for frontend, backend, and logic layer generation
+  * Visual artifact review and real-time previews
+* **Production Workflows:**
+  * Translating prototype concepts to production-ready codebases
+  * Integrating Emergent outputs with local development environments and CI/CD pipelines
