@@ -1,6 +1,9 @@
-## Module 1: Introduction of GenAI
-* **Overview of Generative AI**
-* **Evolution of AI:** From rule-based to generative models
-* **Key Concepts:** LLMs, diffusion models, multimodal AI
-* **Real-World Applications:** Healthcare, education, marketing, finance, and enterprise use cases
-* **Career Paths:** Roles and opportunities in Generative AI
+## Module 8: Multi-Agent Systems using CrewAI / AutoGen
+* Fundamentals of agent collaboration and multi-agent systems
+* Role-playing definitions, goals, and backstories
+* Task assignment and dynamic task delegation
+* Agent-to-agent communication protocols
+* Autonomous task execution workflows
+* Designing scalable multi-agent architectures
+* Hands-on implementation using CrewAI and AutoGen
+* **Module Project:** Collaborative multi-agent workflow solution
