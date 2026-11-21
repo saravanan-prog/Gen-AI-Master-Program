@@ -1,6 +1,8 @@
-## Module 1: Introduction of GenAI
-* **Overview of Generative AI**
-* **Evolution of AI:** From rule-based to generative models
-* **Key Concepts:** LLMs, diffusion models, multimodal AI
-* **Real-World Applications:** Healthcare, education, marketing, finance, and enterprise use cases
-* **Career Paths:** Roles and opportunities in Generative AI
+## Module 7: Building Stateful AI Workflows using LangGraph
+* Introduction to LangGraph and graph-based architectures
+* State management and persistence in complex AI tasks
+* Human-in-the-Loop (HITL) system designs
+* Multi-step workflow construction
+* Agent orchestration patterns
+* Advanced workflow design principles
+* **Module Project:** Graph-based stateful agent system
